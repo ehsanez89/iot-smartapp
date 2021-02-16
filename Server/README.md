@@ -1,2 +1,3 @@
 # Server
-iot
+to Run server use :
+node ./app.js
