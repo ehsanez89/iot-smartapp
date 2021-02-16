@@ -1,0 +1,220 @@
+html{
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  background-color: #eceff1 ;
+}
+
+code {
+  font-family: sans-serif;
+}
+
+form{
+  padding: 20px;  
+}
+
+.dashboard{
+  margin-top: 30px;
+  margin:30px;
+}
+
+.container{
+  background-color:rgb(24, 24, 24);
+    width: 75%;
+  padding:30px;
+
+  margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+}
+containerNav{
+  background-color:#403f3f;
+}
+
+.container h1,h2,h3,h4,h5,h6{
+  color: #ee82ee;
+}
+
+.form-login{
+  max-width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-adduser{
+  max-width: 60%;
+  position: unset;
+  top:50%;
+  left:50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.form-addroom{
+  max-width: 60%;
+  position: unset;
+  top:50%;
+  left:50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inactive {
+  pointer-events: none;
+  cursor: default;
+}
+
+.div-seprator{
+  min-height: 2px;
+  background-color:#eceff1 ;
+}
+
+.card-title{
+  padding: 8px;
+}
+
+.card-title-content{
+  font-weight: bold;
+}
+
+.card-footer{
+  padding: 8px;
+}
+
+
+
+.card-person-content{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.card-person-header{
+  padding-left: 8px;
+
+}
+
+.circle-orange {
+  width: 50px;
+  height: 50px;
+  background: #f9a825 ;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle-pink {
+  width: 50px;
+  height: 50px;
+  background: #e91e63 ;
+  border-radius: 50%;
+  position: relative;
+}
+
+.img-circle{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+} 
+
+.state-empty-col {
+  width: 50px;
+}
+
+.state-data{
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.state-label{
+  margin:0px;
+  vertical-align: bottom;
+}
+
+
+form button , form h5 {
+  margin:20px,0;
+}
+
+.rv-xy-plot {
+  font-family: sans-serif;
+}
+
+.sidenav-header{
+  background-color: #263238 ;
+  padding: 10px;
+  margin-top: 0px;
+  min-height: 200px;
+  position: relative;
+}
+
+.sidenav-header-lable{
+  background-color: #263238 ;
+  padding-top: 10px;
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.activity-log{
+  overflow-y: scroll;
+  height: 300px;
+  width: 300px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+}
+
+.activity-log::-webkit-scrollbar {
+  display: none;
+}
+
+.activity-log-content
+{
+  height:224px;
+  overflow:auto;
+  background:#fff;
+}
+
+.activity-log-content-data
+{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+
+}
+
+
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ff6d00 ;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ff6d00  !important;
+}

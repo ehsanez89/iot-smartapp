@@ -1,0 +1,11 @@
+.bodyContainer{
+    background-color: rgb(24, 24, 24);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+
+.roomcard{
+    background-color:#403f3f;
+}
+

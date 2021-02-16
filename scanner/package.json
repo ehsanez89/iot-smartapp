@@ -1,0 +1,21 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.27",
+    "mosca": "^2.8.3",
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.2.2",
+    "node-cron": "^2.0.3",
+    "node-schedule": "^1.3.2",
+    "textmagic-rest-client": "^1.0.10"
+  }
+}
